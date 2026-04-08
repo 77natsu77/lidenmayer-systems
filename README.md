@@ -1,4 +1,4 @@
-# 🌿 L-System Tree Generator (C# Console)
+# L-System Tree Generator (C# Console)
 
 > **A fractal plant simulator built on formal grammar theory — growing infinite botanical complexity from a single character.**
 
@@ -6,7 +6,7 @@ Implemented in C# using a production-quality turtle graphics engine, this projec
 
 ---
 
-## 🔬 What Is an L-System?
+## What Is an L-System?
 
 An **L-System** is a type of formal *string-rewriting grammar*, invented by biologist Aristid Lindenmayer in 1968 to model plant cell growth. The key insight is that enormous structural complexity can emerge from applying a tiny set of rules recursively — the same principle behind fractals like the Sierpiński triangle or the Koch snowflake.
 
@@ -30,7 +30,7 @@ After just **3 generations**, `"F"` expands into a string **thousands of charact
 
 ---
 
-## ⚙️ Technical Depth
+## Technical Depth
 
 ### 1. String Rewriting (Formal Grammars)
 Each generation applies the rule set via a **linear scan with a `StringBuilder`**, achieving O(n) growth per step. The output string length grows exponentially — a direct demonstration of why L-Systems can model the explosive branching of real plants.
@@ -78,7 +78,7 @@ The tree is grown progressively by passing **substrings of increasing length** t
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/download) (6.0 or later)
@@ -87,7 +87,7 @@ The tree is grown progressively by passing **substrings of increasing length** t
 ### Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lsystem-tree-csharp.git
+git clone https://github.com/77natsu77/lsystem-tree-csharp.git
 cd lsystem-tree-csharp
 dotnet run
 ```
@@ -114,7 +114,7 @@ Thread.Sleep(100);
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 By building this project, I developed hands-on understanding of:
 
@@ -127,7 +127,7 @@ By building this project, I developed hands-on understanding of:
 
 ---
 
-## 🌱 Possible Extensions
+## Possible Extensions
 
 - [ ] Add multiple axioms/rule sets (Sierpiński triangle, dragon curve, Koch snowflake)
 - [ ] Export the line list to an SVG file for high-resolution output
@@ -137,7 +137,7 @@ By building this project, I developed hands-on understanding of:
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - Prusinkiewicz & Lindenmayer — *The Algorithmic Beauty of Plants* (freely available online) — the canonical textbook on L-Systems
 - Paul Bourke's L-System reference: [paulbourke.net](http://paulbourke.net/fractals/lsys/)
